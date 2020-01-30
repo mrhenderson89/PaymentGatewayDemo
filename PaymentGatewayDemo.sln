@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentGatewayDemo", "PaymentGatewayDemo\PaymentGatewayDemo.csproj", "{C1DB91F3-8344-4F80-A83E-87CC0FD1DEF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentGatewayDemo.Tests", "PaymentGatewayDemo.Tests\PaymentGatewayDemo.Tests.csproj", "{24DE9EE3-A0CC-451D-924B-84A004CDA355}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{E41CBF68-072F-4C74-8BE2-EAFC5176D43D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankMock", "BankMock\BankMock.csproj", "{6ECB75AF-E8AC-4828-BFD5-59AD22643DE4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{80907175-A7AE-4A88-8D4F-7EE3F8D32ECC}"
+	ProjectSection(SolutionItems) = preProject
+		Database\Database_Create.sql = Database\Database_Create.sql
+		Database\Database_Populate.sql = Database\Database_Populate.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Postman Collection", "Postman Collection", "{71E8205B-4C6C-4EB4-BA48-B3C1E79355FE}"
+	ProjectSection(SolutionItems) = preProject
+		..\PaymentGatewayDemo.postman_collection.json = ..\PaymentGatewayDemo.postman_collection.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1DB91F3-8344-4F80-A83E-87CC0FD1DEF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1DB91F3-8344-4F80-A83E-87CC0FD1DEF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1DB91F3-8344-4F80-A83E-87CC0FD1DEF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1DB91F3-8344-4F80-A83E-87CC0FD1DEF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24DE9EE3-A0CC-451D-924B-84A004CDA355}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24DE9EE3-A0CC-451D-924B-84A004CDA355}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24DE9EE3-A0CC-451D-924B-84A004CDA355}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24DE9EE3-A0CC-451D-924B-84A004CDA355}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ECB75AF-E8AC-4828-BFD5-59AD22643DE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ECB75AF-E8AC-4828-BFD5-59AD22643DE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ECB75AF-E8AC-4828-BFD5-59AD22643DE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ECB75AF-E8AC-4828-BFD5-59AD22643DE4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{24DE9EE3-A0CC-451D-924B-84A004CDA355} = {E41CBF68-072F-4C74-8BE2-EAFC5176D43D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F03ACA92-CDEE-4764-9EAB-6D466D763467}
+	EndGlobalSection
+EndGlobal
